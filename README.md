@@ -16,7 +16,7 @@ This is an overview of the complete TKL keyboard project, including schematic, P
 ### Schematic  
 The keyboard uses a row-column matrix with diodes to prevent ghosting. The RP2040 is directly mounted on the PCB along with a crystal, power regulation, ESD protection, and SPI flash for firmware storage.
 
-![Schematic](images/schematics.png)
+![Schematic](images/Schematics.png)
 
 ---
 
@@ -31,7 +31,7 @@ The PCB is fully hand-routed and includes:
 - Support for hot-swap switch sockets  
 - ISO DE/QWERTZ-compliant layout  
 
-![PCB Layout](images/pcb.png)
+![PCB Layout](images/PCB.png)
 
 ---
 
@@ -39,8 +39,8 @@ The PCB is fully hand-routed and includes:
 The case uses standoffs, heated inserts, and screws to mount the PCB securely. Cutout for USB-C.
 Compatible with standard MX keycaps and Cherry stabilizers.
 
-![Case Bottom with space for heated inserts](images/case-bottom.png)
-![Case](images/case-top.png)
+![Case Bottom with space for heated inserts](images/CASE-Bottom.png)
+![Case](images/CASE-Top.png)
 
 ---
 
