@@ -46,35 +46,38 @@ Compatible with standard MX keycaps and Cherry stabilizers.
 
 ## Bill of Materials (BOM)
 
-| Qty | Component              | Value / Description                          | Footprint / Type                      |
-|-----|------------------------|----------------------------------------------|---------------------------------------|
-| 8   | Capacitor              | 100n                                         | C_0402                                |
-| 5   | Capacitor              | 1u                                           | C_0402                                |
-| 2   | Capacitor              | 22p                                          | C_0402                                |
-| 1   | Capacitor              | 10u                                          | C_0603                                |
-| 5   | Resistor               | 5.1k                                         | R_0402                                |
-| 2   | Resistor               | 27k                                          | R_0402                                |
-| 2   | Resistor               | 1k                                           | R_0402                                |
-| 88  | Diodes                 | 1N4148 or equivalent (Ghosting Prevention)   | SOD-123                               |
-| 1   | Microcontroller        | RP2040                                       | QFN-56                                |
-| 1   | Voltage Regulator      | XC6206PxxxMR                                 | SOT-23-3                              |
-| 1   | ESD Protection         | SRV05-4                                      | SOT-23-6                              |
-| 1   | Flash Memory           | W25Q128JVS                                   | SOIC-8                                |
-| 1   | Crystal                | 12MHz / GND24                                | SMD 3225-4Pin                         |
-| 1   | Fuse                   | For USB protection                           | 1206                                  |
-| 2   | Push Button            | Reset / Boot                                 | TL3342                                |
-| 88  | Hot-swap Sockets       | MX-compatible                                | CPG151101S11                          |
-| 4   | Stabilizers            | 6.25u / 2.75u / 2u / ISO                     | Cherry MX                             |
-| 1   | USB Port               | USB-C 2.0                                    | 16P Receptacle                        |
-| 1   | Debug Header           | 4-pin JST                                    | JST-SH 1.0mm                          |
-| 1   | Debug Header           | 5-pin Header                                 | 2.54mm Vertical                       |
-| 88  | Switches               | Cherry MX or clone                           | MX-compatible                         |
-| 88  | Keycaps                | ISO DE Layout                                | Cherry Profile                        |
-| 6   | Standoffs              | 6×6mm M2.5                                   | Female-Male                           |
-| 6   | Screws                 | M2.5×6mm                                     | Steel                                 |
-| 6   | Heated Inserts         | M2.5×6mm                                     | Brass                                 |
-| 1   | USB Cable              | USB-A to USB-C                               | —                                     |
+| Qty | Component              | Value / Description                          | Footprint / Type                      |Price         |
+|-----|------------------------|----------------------------------------------|---------------------------------------|--------------|
+| 8   | Capacitor              | 100n                                         | C_0402                                |\/            |
+| 5   | Capacitor              | 1u                                           | C_0402                                |\/            |
+| 2   | Capacitor              | 22p                                          | C_0402                                |\/            |
+| 1   | Capacitor              | 10u                                          | C_0603                                |\/            |
+| 5   | Resistor               | 5.1k                                         | R_0402                                |\/            |
+| 2   | Resistor               | 27k                                          | R_0402                                |\/            |
+| 2   | Resistor               | 1k                                           | R_0402                                |\/            |
+| 88  | Diodes                 | 1N4148 or equivalent (Ghosting Prevention)   | SOD-123                               |\/            |
+| 1   | Microcontroller        | RP2040                                       | QFN-56                                |\/            |
+| 1   | Voltage Regulator      | XC6206PxxxMR                                 | SOT-23-3                              |\/            |
+| 1   | ESD Protection         | SRV05-4                                      | SOT-23-6                              |\/            |
+| 1   | Flash Memory           | W25Q128JVS                                   | SOIC-8                                |\/            |
+| 1   | Crystal                | 12MHz / GND24                                | SMD 3225-4Pin                         |\/            |
+| 1   | Fuse                   | For USB protection                           | 1206                                  |\/            |
+| 2   | Push Button            | Reset / Boot                                 | TL3342                                |$128,97       |
+| 88  | Hot-swap Sockets       | MX-compatible                                | CPG151101S11                          |$6,28         | 
+| 4   | Stabilizers            | 6.25u / 2.75u / 2u / ISO                     | Cherry MX                             |$11,77        |
+| 1   | USB Port               | USB-C 2.0                                    | 16P Receptacle                        |$2,01         |
+| 1   | Debug Header           | 4-pin JST                                    | JST-SH 1.0mm                          |\/            |
+| 1   | Debug Header           | 5-pin Header                                 | 2.54mm Vertical                       |$3,36         |
+| 88  | Switches               | Cherry MX or clone                           | MX-compatible                         |$61,24        |
+| 88  | Keycaps                | ISO DE Layout                                | Cherry Profile                        |$16,71        |
+| 6   | Standoffs              | 6×6mm M2.5                                   | Female-Male                           |$1,17         |
+| 6   | Screws                 | M2.5×6mm                                     | Steel                                 |$1,78         |
+| 6   | Heated Inserts         | M2.5×6mm                                     | Brass                                 |$7,93         |
+| 1   | USB Cable              | USB-A to USB-C                               | —                                     |-             |
+|     |                        |                                              |                                       |Total: $241,22|
 
+* "\/" means: Price is from a package/some parts are bought together and the price is under the arrow pointing down!
+* Price is more than $150: I saw a $75 coupon for JLCPCB which would make the price a bit lower and the rest I would pay from my money!
 ---
 
 ## Firmware
